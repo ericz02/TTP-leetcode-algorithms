@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --testPathPattern=twoSum.test.js"
+    "test-all": "jest --watch",
+    "test-00": "jest --watch --testPathPattern=findAllDuplicateInAnArray\\.test\\.js",
+    "test-01": "jest --watch --testPathPattern=findTheDuplicateNumber\\.test\\.js",
+    "test-02": "jest --watch --testPathPattern=missingNumber\\.test\\.js",
+    "test-03": "jest --watch --testPathPattern=containerWithMostWater\\.test\\.js",
+    "test-04": "jest --watch --testPathPattern=removeDuplicateFromSortedArray\\.test\\.js",
+    "test-05": "jest --watch --testPathPattern=twoSum\\.test\\.js"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
