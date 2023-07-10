@@ -1,4 +1,4 @@
-import findDuplicates from './findDuplicates';
+const findDuplicates = require('./findDuplicates');
 
 describe('findDuplicates', () => {
   test('should return an array of duplicate numbers', () => {
