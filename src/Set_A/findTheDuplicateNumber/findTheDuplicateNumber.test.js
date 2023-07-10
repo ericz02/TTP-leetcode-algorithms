@@ -1,4 +1,4 @@
-const findDuplicate = require('./main');
+const findDuplicate = require('./findTheDuplicateNumber');
 
 describe('Find The Duplicate Number', () => {
   test('Example 1', () => {
